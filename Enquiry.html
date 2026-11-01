@@ -1,93 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title> Themba Givers </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themba Givers - Enquiries</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <h1 align="center"> HOW YOU HELP US MAKE A DIFFERENCE </h1>
- <p align="center"><button> DONATE </button></p>
- <p align="center"><button> VOLUNTEER </button></p>
-<hr/>
 
-<header align="center">
-<a href="Index.html"> Main Page</a>
- <a href="About.html"> About</a>
-  <a href="Services.html"> Services</a>
-   <a href="Enquiry.html"> Enquiries</a>
-    <a href="Contact.html"> Contact us</a>
+<header>
+    <div class="container">
+
+        <img src="IMAGES/logo.png" alt="Themba Givers Logo" class="logo">
+
+        <h1 class="site-title">THEMBA GIVERS</h1>
+
+        <p class="tagline">Your time and donations can change a life.</p>
+
+    </div>
 </header>
-<hr/>
 
-<b1> You can help us make a difference by one of the following ways:</b1>
-    <ul>
-    <li> Donating food parcels </li>
-    <li> Volunteering to help in food drives and feeding schemes</li>
-    <li> Volunteering or donating refuse bags for community clean-ups</li>
-    <li> Donating clothes for clothing drives. (Old or New) </li>
-    </ul>
+<nav>
+    <a href="Index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Services.html">Services</a>
+    <a href="Enquiry.html">Enquiries</a>
+    <a href="Contact.html">Contact Us</a>
+</nav>
 
-<br/>
-      Name: </label> <input/>
-<br/>
-<br/>
-      Surname: </label> <input/>
-<br/>
-<br/>
-      Surburb: </label> <input/>
-<br/>
-<br/>
-      ID Number: </label> <input/>
-<br/>
-<br/>
-      Age: </label> <input/>
+<main>
+<h1>HOW YOU CAN HELP US MAKE A DIFFERENCE</h1>
 
-<br/>
-<br/>
+<p class="intro">
+    There are many ways you can support Themba Givers.
+    You can donate items or volunteer your time to help
+    with our community activities.
+</p>
 
- <b1> Activity </b1>
-    <select> 
-        <option>    </option>
-        <option> Volunteering  </option>  
-        <option> Donating </option>   
+<form>
+
+    <h2>Donation / Volunteer Enquiry</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname" required>
+
+    <label for="suburb">Suburb:</label>
+    <input type="text" id="suburb" name="suburb">
+
+    <label for="idnumber">ID Number:</label>
+    <input type="text" id="idnumber" name="idnumber">
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+
+    <label for="activity">Activity:</label>
+
+    <select id="activity" name="activity">
+
+        <option value="">Please select</option>
+
+        <option value="volunteering">
+            Volunteering
+        </option>
+
+        <option value="donating">
+            Donating
+        </option>
+
     </select>
-<br/>
-<br/>
- <b1> Type of Donation/Volunteer Activity </b1>
-    <select> 
-        <option>   </option>  
-        <option> Donating food parcels </option>  
-        <option> Food drives volunteer </option>  
-        <option> Community clean-ups </option>  
-        <option> Clothing drives volunteer </option>  
-        <option> Donating clothes to the clothing drive.</option>  
+
+    <label for="type">
+        Type of Donation / Volunteer Activity:
+    </label>
+
+    <select id="type" name="type">
+
+        <option value="">Please select</option>
+
+        <option>Donating food parcels</option>
+
+        <option>Food drives volunteer</option>
+
+        <option>Community clean-ups</option>
+
+        <option>Clothing drives volunteer</option>
+
+        <option>Donating clothes</option>
+
     </select>
-<br/>
-<br/>
-    <button align="middle"> SUBMIT </button>
-<br/>
-<br/>
+
+    <label for="message">
+        Additional Message:
+    </label>
+
+    <textarea id="message"
+              name="message"
+              placeholder="Tell us how you would like to help.">
+    </textarea>
+
+    <br>
+
+    <button type="submit" class="button">
+        SUBMIT ENQUIRY
+    </button>
+
+</form>
+
+</main>
 
 <footer>
-    <hr/>
-<b> Contacts: 012 456 8954 / 075 465 8965</b>
-<br/>
-<b> Email: thembagiversofhope@gmail.com </b>
-<br/>
-<b> TikTok: @themba.giversofhope</b>
-<br/>
-<b> Instagram @Thee.giversofhope</b> 
 
-<p align="right">
-<b> </b>
-<br/>
-<b> 5430 Lekoko Street </b>
-<br/>
-<b> Diepsloot</b>
-<br/>
-<b> Mountain View
-<br/>
-<b> 0146 </b> 
-</p>
+    <div class="footer-container">
+
+        <div>
+            <h3>Contact Information</h3>
+            <p>Phone: 012 456 8954 / 075 465 8965</p>
+            <p>Email: thembagiversofhope@gmail.com</p>
+            <p>TikTok: @themba.giversofhope</p>
+            <p>Instagram: @Thee.giversofhope</p>
+        </div>
+
+        <div>
+            <h3>Our Address</h3>
+            <p>5430 Lekoko Street</p>
+            <p>Diepsloot</p>
+            <p>Mountain View</p>
+            <p>0146</p>
+        </div>
+
+    </div>
 
 </footer>
 
