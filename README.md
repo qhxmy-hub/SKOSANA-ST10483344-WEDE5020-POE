@@ -1,4 +1,3 @@
-
 # Themba Givers NPO Website
 ## WEDE5020 - Portfolio of Evidence Part 3
 
