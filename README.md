@@ -1,5 +1,5 @@
 # ST10483344-SKOSANA-POE-PART 1-3 
-- This is my WEDE5020 - WEB DEVELOPMENT POE and it just covers the foundation of HTML, CSS styling and JavaScript code.
+- This is my WEDE5020 - WEB DEVELOPMENT POE and it just covers HTML, CSS styling and JavaScript code.
 - Part 1 was initially pushed into the master branch.
 - Part 2 has been moved to the master branch as well and it contains CSS code and updated HTML Code building on the initial commit made in part 1.
 - Due to the difficulties with deploying my website, I committed my part 2 code into the main branch from my former branch called "part2", This unfortunately did not resolve the issue I was dealing with.
