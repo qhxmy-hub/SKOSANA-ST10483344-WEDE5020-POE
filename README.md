@@ -13,7 +13,7 @@ The purpose of the website is to provide information about the organisation, exp
 
 The website contains five main pages:
 
-- **index.html:** The home page introduces Themba Givers and explains how visitors can support the organisation.
+- **Index.html:** The home page introduces Themba Givers and explains how visitors can support the organisation.
 - **About.html:** Provides information about the organisation, its background, mission and vision.
 - **Services.html:** Explains the community activities and services offered by Themba Givers.
 - **Enquiry.html:** Allows visitors to enquire about donations and volunteering opportunities.
@@ -58,7 +58,7 @@ The project files are arranged into the following folders:
 ```text
 ST10483344_THEMBA_GIVERS_POE_PART3/
 │
-├── index.html
+├── Index.html
 ├── About.html
 ├── Services.html
 ├── Enquiry.html
