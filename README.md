@@ -1,8 +1,11 @@
 # ST10483344-SKOSANA-POE-PART 1-3 
-- This is Part 1 of my WEDE5020 - WEB DEVELOPMENT POE and it just covers the foundation of HTML.
-- Part 2 has been moved to the master and it contains CSS code and updated HTML Code building on the initial commit made in part 1.
-- Part 3 will be pushed into the master branch as well as many branches created difficulties in terms of deploying the full website.
-- Due to the difficulties, i also committed my part 2 code into the main branch which did not help but i cannot reverse that so this is why we have some code in the main branch it is just part 2 which i have commited into the master branch as well as alluded before.
-- I deleted the part2 branch which had my part 2 however it has been commited into the master and main branch.
-- The part 1 was initially committed into the main branch so basically all the code of all parts will be committed under the master branch.
+- This is my WEDE5020 - WEB DEVELOPMENT POE and it just covers the foundation of HTML, CSS styling and JavaScript code.
+- Part 1 was initially pushed into the master branch.
+- Part 2 has been moved to the master branch as well and it contains CSS code and updated HTML Code building on the initial commit made in part 1.
+- Due to the difficulties with deploying my website, I committed my part 2 code into the main branch from my former branch called "part2", This unfortunately did not resolve the issue I was dealing with.
+- It turned out to be a casing issue where "index.html" was "Index.html" which made my website fail to deploy as I kept receiving the Error 404 page not found error. 
+- Part 3 was pushed into the master branch as well.
+- We have some code in the main branch, it is just part 2 which I have committed into the master branch as well because of the whole failure to deploy website issue.
+- Therefore I deleted the part2 branch which had my initial part 2 commit because of this issue under the assumption that it was a branch issue.
+- In conclusion all the parts from part 1 - 3 were committed under the master branch, I just committed part 2 code into the main branch because of the issues I struggled with throughout part 3 which I have thoroughly explained within this README file.
 - The URL Link for the entire website is live on https://qhxmy-hub.github.io/SKOSANA-ST10483344-WEDE5020-POE/ 
