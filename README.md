@@ -58,7 +58,7 @@ The project files are arranged into the following folders:
 ```text
 ST10483344_THEMBA_GIVERS_POE_PART3/
 │
-├── Index.html
+├── index.html
 ├── About.html
 ├── Services.html
 ├── Enquiry.html
